@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friend or Threat</title>
+  </head>
+  <body
+    id="b1"
+    style="background-color: lavender; text-align: center; font-family: impact"
+  >
+    >
+    <h1>Friend or Threat</h1>
+
+    <p>
+      Artificial Intelligence, unveiling a new horizon, where possibilities.<br />
+      boundless, stepping onto the path of progress. If it arrives as a
+      friend,.<br />
+      life will become easier, providing new vigor in solving problems.
+      However,<br />
+      if it becomes a threat, it can take away jobs, creating discord and<br />
+      adversity. Uncontrolled AI can bring disaster, casting a dark shadow
+      over<br />
+      the existence of humankind. Therefore, caution and proper use are<br />
+      necessary, binding it with the ties of ethics, its reform must be done.<br />
+      Friend or threat, the answer to this question, depends on our use of
+      it.<br />
+      If driven on the right path, AI will be a friend, otherwise, it can
+      become<br />
+      a great enemy.<br /><br />
+    </p>
+
+    <button onclick="changeColor()">Click Me</button>
+
+    <script>
+      function changeColor() {
+        var color = [
+          "lavender",
+          "plum",
+          "pink",
+          "cornflowerblue",
+          "yellowgreen",
+          "purple",
+          "violet",
+        ];
+        var random = Math.floor(Math.random() * 4); // Use color.length for dynamic range
+        var body = document.getElementById("b1");
+        body.style.backgroundColor = color[random];
+      }
+    </script>
+  </body>
+</html>
